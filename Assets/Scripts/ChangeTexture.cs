@@ -27,6 +27,6 @@ public class ChangeTexture : MonoBehaviour
         if (counter < myTextures.Count - 1)
             counter++;
         else counter = 0;
-        this.gameObject.transform.GetComponent<Renderer>().material.SetTexture("_MainTex", myTextures[counter]);
+        this.gameObject.transform.GetComponent<Renderer>().material.SetTexture("_BaseMap", myTextures[counter]);
     }
 }
